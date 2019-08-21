@@ -1,0 +1,132 @@
+@charset 'utf-8';
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto','sans-serif';
+}
+* {
+    box-sizing: border-box;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+    padding: 10px;
+  }
+  #eu{
+    max-height: 300px;   
+}
+#esquerda{
+    background-color:	#20B2AA;
+    color: white;
+    text-align: center;
+    
+}
+#direita p{
+    color: #818181;
+   }
+   #direita h1{
+       color:#20B2AA;
+   }
+  
+   #direita h1{
+    border-radius: 5px;
+   }
+   fieldset{
+    border-color:rgb(135,206,250);
+    border-radius: 10px;
+    margin: 5px;
+}
+}
+/*  */
+@media only screen and (min-width: 769px){
+    fieldset{
+        box-sizing: border-box;
+    }
+    .col-6 {
+        float: left;
+        text-align: center;
+        padding: 50px;
+      }
+    .col-6{
+        float:left;
+    }
+
+   #eu{
+       max-width: 500px;
+       max-height: 500px;
+       border-radius: 50%;
+       
+   }
+   #direita{
+    text-align: left;
+    margin-left: 50%;
+
+   }
+   #esquerda{
+       position: fixed;
+       left: 0;
+       background-color:	#20B2AA;
+       height: 100%;
+       color: white;
+       text-align: left;
+       overflow: auto;
+   }
+   #direita p{
+    color: #818181;
+   }
+   #direita h1{
+       color:#20B2AA;
+   }
+  
+   #direita h1{
+       
+       border-radius: 5px;
+   }
+   fieldset{
+       border-color:rgb(135,206,250);
+       border-radius: 10px;
+       margin: 5px;
+   }
+   fieldset:hover{
+       transform: scale(1.1);
+       margin: 15px;
+   }
+   .imagem:hover{
+       transform: scale(1.5);
+   }
+}
+h1:hover{
+    opacity: .6;
+}
+#eu:hover{
+    border-radius: 0;
+}
+/**/
+
+
+
+a:link{
+    
+}
+a:hover{
+    
+}
+a:visited {}
